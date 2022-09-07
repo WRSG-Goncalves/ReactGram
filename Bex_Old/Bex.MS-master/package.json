@@ -1,0 +1,38 @@
+{
+  "name": "bex-api-ms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node server.js",
+    "start:prod": "node dist/server.js",
+    "dev": "nodemon server.js",
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && babel . --ignore node_modules --source-maps --copy-files -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-transform-strict-mode": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2",
+    "sucrase": "^3.17.0"
+  },
+  "dependencies": {
+    "aspnet-identity-pw": "^1.0.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15",
+    "html-pdf": "^2.2.0",
+    "mssql": "^6.3.1",
+    "nodemailer": "^6.4.17",
+    "require-directory": "^2.1.1",
+    "uuid": "^8.3.2"
+  }
+}

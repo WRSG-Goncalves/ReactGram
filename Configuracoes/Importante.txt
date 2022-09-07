@@ -1,0 +1,18 @@
+yarn upgrade-interactive --latest --exact otima dica
+explicaca no video : https://www.youtube.com/watch?v=avX8XIOST7Y
+
+ok  - expo-constants - expected version: ~13.2.3 - actual version installed: 12.1.3
+ 
+ - expo-linking - expected version: ~3.2.2 - actual version installed: 2.4.2
+ 
+ 
+ - react - expected version: 18.0.0 - actual version installed: 17.0.1
+ 
+ 
+ 
+ - react-dom - expected version: 18.0.0 - actual version installed: 17.0.1
+ - react-native-gesture-handler - expected version: ~2.5.0 - actual version installed: 1.10.3
+ - react-native-reanimated - expected version: ~2.9.1 - actual version installed: 2.2.4
+ - react-native-safe-area-context - expected version: 4.3.1 - actual version installed: 3.3.2
+ - react-native-screens - expected version: ~3.15.0 - actual version installed: 3.8.0
+ - react-native-web - expected version: ~0.18.7 - actual version installed: 0.17.1

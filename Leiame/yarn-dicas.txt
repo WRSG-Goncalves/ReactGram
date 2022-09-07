@@ -1,0 +1,26 @@
+expo upgrade numero da versao skd exemplo
+
+expo upgrade 43.0.0
+
+
+otima dica: 
+
+yarn upgrade-interactive --latest --exact 
+
+explicaca no video : https://www.youtube.com/watch?v=avX8XIOST7Y
+
+
+	
+	
+	random for details.
+warning npm > request > har-validator@5.1.5: this library is no longer supported
+[2/4] Fetching packages...
+error Incorrect hash when fetching from the cache for "react-native-lightbox". Cache has undefined and remote has "91f3f58759e9901d9c006b01ce32d074606eda0e". Run `yarn cache clean` to fix the problem
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this
+
+
+
+um exemplo de mudança por atualização de skd :
+https://stackoverflow.com/questions/65261890/i-cant-use-the-apploading-on-my-react-native-it-wont-work-properly
+
+import AsyncStorage from '@react-native-async-storage/async-storage';

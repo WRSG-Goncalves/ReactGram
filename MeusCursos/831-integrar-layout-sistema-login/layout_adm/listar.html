@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/custom_adm.css" />
+    <title>Adm - Celke</title>
+</head>
+
+<body>
+    <!--Inicio Navbar-->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="bars">
+                <i class="fas fa-bars"></i>
+            </div>
+            <img src="images/logo.png" alt="celke" class="logo" />
+        </div>
+
+        <div class="navbar-content">
+            <div class="notification">
+                <i class="fas fa-bell"></i>
+                <span class="number">7</span>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content">
+                        <li>
+                            <img src="images/user.jpg" alt="Usuario" />
+                            <div class="text">Fusce rhoncus lectus nec nulla malesuada malesuada lectus nisl.</div>
+                        </li>
+                        <li>
+                            <img src="images/user.jpg" alt="Usuario" />
+                            <div class="text">Fusce rhoncus lectus nec nulla malesuada malesuada lectus nisl.</div>
+                        </li>
+                        <li>
+                            <img src="images/user.jpg" alt="Usuario" />
+                            <div class="text">Fusce rhoncus lectus nec nulla malesuada malesuada lectus nisl.</div>
+                        </li>
+                        <li>
+                            <img src="images/user.jpg" alt="Usuario" />
+                            <div class="text">Fusce rhoncus lectus nec nulla malesuada malesuada lectus nisl.</div>
+                        </li>
+                        <li>
+                            <img src="images/user.jpg" alt="Usuario" />
+                            <div class="text">Fusce rhoncus lectus nec nulla malesuada malesuada lectus nisl.</div>
+                        </li>
+                        <li>
+                            <img src="images/user.jpg" alt="Usuario" />
+                            <div class="text">Fusce rhoncus lectus nec nulla malesuada malesuada lectus nisl.</div>
+                        </li>
+                        <li>
+                            <img src="images/user.jpg" alt="Usuario" />
+                            <div class="text">Fusce rhoncus lectus nec nulla malesuada malesuada lectus nisl.</div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="avatar">
+                <img src="images/user.jpg" alt="Usuario" />
+                <div class="dropdown-menu setting">
+                    <div class="item">
+                        <span class="fas fa-user"></span> Perfil
+                    </div>
+                    <div class="item">
+                        <span class="fas fa-cog"></span> Configuração
+                    </div>
+                    <div class="item">
+                        <span class="fas fa-sign-out-alt"></span> Sair
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </nav>
+
+    <!--Inicio conteudo-->
+    <div class="content">
+        <!--Inicio da Sidebar-->
+        <div class="sidebar">
+            <a href="index.html" class="sidebar-nav"><i
+                    class="icon fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+
+            <a href="listar.html" class="sidebar-nav active"><i class="icon fas fa-users"></i><span>Listar</span></a>
+
+            <a href="formulario.html" class="sidebar-nav"><i class="icon fas fa-edit"></i><span>Formulário</span></a>
+
+            <a href="visualizar.html" class="sidebar-nav"><i class="icon fas fa-eye"></i><span>Visualizar</span></a>
+
+            <a href="alert.html" class="sidebar-nav"><i class="icon fas fa-exclamation-triangle"></i><span>Alerta</span></a>
+
+            <a href="button.html" class="sidebar-nav"><i class="icon fas fa-check-square"></i><span>Botões</span></a>
+
+            <a href="login.html" class="sidebar-nav"><i class="icon fas fa-sign-out-alt"></i><span>Sair</span></a>
+        </div>
+
+        <!-- Conteudo do ADM -->
+        <div class="wrapper">
+            <div class="row">
+                <div class="top-content-adm">
+                    <span class="title-content">Listar</span>
+                    <div class="top-content-adm-right">
+                        <button type="button" class="btn-success">Cadastrar</button>
+                    </div>
+                </div>
+
+                <table class="table-list">
+                    <thead class="list-head">
+                        <tr>
+                            <th class="list-head-content">ID</th>
+                            <th class="list-head-content">Nome</th>
+                            <th class="list-head-content table-sm-none">E-mail</th>
+                            <th class="list-head-content table-sm-none">Coluna 4</th>
+                            <th class="list-head-content table-md-none">Coluna 5</th>
+                            <th class="list-head-content table-lg-none">Coluna 6</th>
+                            <th class="list-head-content">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list-body">
+                        <tr>
+                            <td class="list-body-content">1</td>
+                            <td class="list-body-content">Cesar</td>
+                            <td class="list-body-content table-sm-none">cesar@celke.com.br</td>
+                            <td class="list-body-content table-sm-none">Coluna 4</td>
+                            <td class="list-body-content table-md-none">Coluna 5</td>
+                            <td class="list-body-content table-lg-none">Coluna 6</td>
+                            <td class="list-body-content">
+                                <!--<button type="button" class="btn-primary">Visualizar</button>
+                                <button type="button" class="btn-warning">Editar</button>
+                                <button type="button" class="btn-danger">Apagar</button>-->
+                                <div class="dropdown-action">
+                                    <button onclick="actionDropdown(1)" class="dropdown-btn-action">Ações</button>
+                                    <div id="actionDropdown1" class="dropdown-action-item">
+                                        <a href="#">Visualizar</a>
+                                        <a href="#">Editar</a>
+                                        <a href="#">Apagar</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="list-body-content">2</td>
+                            <td class="list-body-content">Kelly</td>
+                            <td class="list-body-content table-sm-none">kelly@celke.com.br</td>
+                            <td class="list-body-content table-sm-none">Coluna 4</td>
+                            <td class="list-body-content table-md-none">Coluna 5</td>
+                            <td class="list-body-content table-lg-none">Coluna 6</td>
+                            <td class="list-body-content">
+                                <div class="dropdown-action">
+                                    <button onclick="actionDropdown(2)" class="dropdown-btn-action">Ações</button>
+                                    <div id="actionDropdown2" class="dropdown-action-item">
+                                        <a href="#">Visualizar</a>
+                                        <a href="#">Editar</a>
+                                        <a href="#">Apagar</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="list-body-content">3</td>
+                            <td class="list-body-content">Jessica</td>
+                            <td class="list-body-content table-sm-none">jessica@celke.com.br</td>
+                            <td class="list-body-content table-sm-none">Coluna 4</td>
+                            <td class="list-body-content table-md-none">Coluna 5</td>
+                            <td class="list-body-content table-lg-none">Coluna 6</td>
+                            <td class="list-body-content">
+                                <div class="dropdown-action">
+                                    <button onclick="actionDropdown(3)" class="dropdown-btn-action">Ações</button>
+                                    <div id="actionDropdown3" class="dropdown-action-item">
+                                        <a href="#">Visualizar</a>
+                                        <a href="#">Editar</a>
+                                        <a href="#">Apagar</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="list-body-content">4</td>
+                            <td class="list-body-content">Jessica</td>
+                            <td class="list-body-content table-sm-none">jessica@celke.com.br</td>
+                            <td class="list-body-content table-sm-none">Coluna 4</td>
+                            <td class="list-body-content table-md-none">Coluna 5</td>
+                            <td class="list-body-content table-lg-none">Coluna 6</td>
+                            <td class="list-body-content">
+                                <div class="dropdown-action">
+                                    <button onclick="actionDropdown(4)" class="dropdown-btn-action">Ações</button>
+                                    <div id="actionDropdown4" class="dropdown-action-item">
+                                        <a href="#">Visualizar</a>
+                                        <a href="#">Editar</a>
+                                        <a href="#">Apagar</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="list-body-content">5</td>
+                            <td class="list-body-content">Gabrielly</td>
+                            <td class="list-body-content table-sm-none">gabrielly@celke.com.br</td>
+                            <td class="list-body-content table-sm-none">Coluna 4</td>
+                            <td class="list-body-content table-md-none">Coluna 5</td>
+                            <td class="list-body-content table-lg-none">Coluna 6</td>
+                            <td class="list-body-content">
+                                <div class="dropdown-action">
+                                    <button onclick="actionDropdown(5)" class="dropdown-btn-action">Ações</button>
+                                    <div id="actionDropdown5" class="dropdown-action-item">
+                                        <a href="#">Visualizar</a>
+                                        <a href="#">Editar</a>
+                                        <a href="#">Apagar</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="list-body-content">6</td>
+                            <td class="list-body-content">Marcos</td>
+                            <td class="list-body-content table-sm-none">marcos@celke.com.br</td>
+                            <td class="list-body-content table-sm-none">Coluna 4</td>
+                            <td class="list-body-content table-md-none">Coluna 5</td>
+                            <td class="list-body-content table-lg-none">Coluna 6</td>
+                            <td class="list-body-content">
+                                <div class="dropdown-action">
+                                    <button onclick="actionDropdown(6)" class="dropdown-btn-action">Ações</button>
+                                    <div id="actionDropdown6" class="dropdown-action-item">
+                                        <a href="#">Visualizar</a>
+                                        <a href="#">Editar</a>
+                                        <a href="#">Apagar</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="list-body-content">7</td>
+                            <td class="list-body-content">Ana</td>
+                            <td class="list-body-content table-sm-none">ana@celke.com.br</td>
+                            <td class="list-body-content table-sm-none">Coluna 4</td>
+                            <td class="list-body-content table-md-none">Coluna 5</td>
+                            <td class="list-body-content table-lg-none">Coluna 6</td>
+                            <td class="list-body-content">
+                                <div class="dropdown-action">
+                                    <button onclick="actionDropdown(7)" class="dropdown-btn-action">Ações</button>
+                                    <div id="actionDropdown7" class="dropdown-action-item">
+                                        <a href="#">Visualizar</a>
+                                        <a href="#">Editar</a>
+                                        <a href="#">Apagar</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="content-pagination">
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#" class="active">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">&raquo;</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/custom_adm.js"></script>
+</body>
+
+</html>

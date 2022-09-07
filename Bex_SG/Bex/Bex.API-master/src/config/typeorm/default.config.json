@@ -1,0 +1,27 @@
+{
+  "name": "default",
+  "type": "mssql",
+  "host": "dbserver-portalexpert.database.windows.net",
+  "username": "user-portalexpert",
+  "password": "ViaCapital098!@#",
+  "database": "db-portalexpert",
+  "synchronize": false,
+  "logging": false,
+  "entities": [
+    "${rootDir}/entities/**/*.ts",
+    "./dist/entities/*.js"
+  ],
+  "migrations": [
+    "${rootDir}/migrations/**/*.ts",
+    "./dist/migrations/*.js"
+  ],
+  "subscribers": [
+    "${rootDir}/subscribers/**/*.ts",
+    "./dist/subscribers/*.js"
+  ],
+  "cli": {
+    "entitiesDir": "${rootDir}/entities",
+    "migrationsDir": "${rootDir}/migrations",
+    "subscribersDir": "${rootDir}/subscribers"
+  }
+}

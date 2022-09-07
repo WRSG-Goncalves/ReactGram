@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  bex-ms:
+    image: bex-ms
+    restart: on-failure
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "3359:3000"

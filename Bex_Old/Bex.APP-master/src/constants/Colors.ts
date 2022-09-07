@@ -1,0 +1,16 @@
+export enum Colors {
+  Transparent = "transparent",
+  Black = "#000",
+  White = "#fff",
+  LightGray = "#E5ECF0",
+  Gray = "#999",
+  Red = "#ff0000",
+  Blue = "#368CC7",
+  Primary = "#002568",
+  Secondary = "#006985",
+  DarkGray = "#666",
+  Green = "#26bf4f",
+  DefalutGray= "#f2f2f2",
+  Yellow = "#FFC700",
+  Purple = '#695AFC',
+}

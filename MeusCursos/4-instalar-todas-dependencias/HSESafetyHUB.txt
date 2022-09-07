@@ -1,0 +1,26 @@
+Segue abaixo os detalhes de login dos sistemas da HSE Training para avaliação:
+
+karpowership.hsetraining.com.br/wp-admin
+
+Usuário: falcon
+Email: proposta@falconagencia.com.br
+Senha: falcon123
+
+A página que possui o iframe e o sistema "emprestado" é TRAINING MANAGER, segue os detalhes do login de administrador (É o meu usuário, utilizar com cuidado e não gerar nenhum registro novo):
+
+-- Login: contato@hsetraining.com.br
+--- Senha: Vitao2019!
+
+Prioridade ombardt
+Cadastro
+certificdos
+
+Alow
+Localizaçoes
+Posicoes
+
+admin dash
+
+app.workhub.com
+contato@hsetraining.com.br
+Vitao2022@
